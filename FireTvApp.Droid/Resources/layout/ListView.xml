@@ -4,6 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/shareMenuItem"
+            android:showAsAction="always"
+            android:title="Michael Flix"
+            android:actionProviderClass="android.widget.ShareActionProvider" />
+    </menu>
     <Button
         android:layout_width='fill_parent'
         android:layout_height='wrap_content'
