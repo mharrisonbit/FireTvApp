@@ -1,7 +1,10 @@
-﻿namespace FireTvApp.Core.Services
+﻿using FireTvApp.Core.Models;
+using MvvmCross.ViewModels;
+
+namespace FireTvApp.Core.Services
 {
     public interface IPopulateListService
     {
-        void GetMovieList();
+        MvxObservableCollection<Movie> GetMovieList();
     }
 }
